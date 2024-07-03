@@ -39,6 +39,7 @@ Below is an example of a configuration JSON file implementing restrictions to al
     ]
   }
 }
+```
 
 
 ## Contributing
