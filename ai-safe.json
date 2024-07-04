@@ -1,0 +1,20 @@
+{
+  "disallowed-resources": [
+    {
+      "url": "/",
+      "type": "*",
+      "region": ["*"]
+    }
+  ],
+  "allowed-resources": [
+    {
+      "url": "/",
+      "type": "code",
+      "license": {
+        "type": "Apache-2.0"
+      },
+      "region": ["Europe"],
+      "user-agent": "*"
+    }
+  ]
+}
