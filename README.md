@@ -20,24 +20,28 @@
 
 ### Example Configuration
 
-Below is an example of a configuration JSON file implementing restrictions to all content types, allowing access only for Europe.
+Below is an example of a configuration JSON file implementing restrictions to all content types, allowing access only for Europe for AI bots building models with Apache-2.0 license.
 
 ```json
 {
-  "title": "ai-safe"
-  "resources": {
-    "allowed-resources": [
-      {
-        "url": "/",
-        "type": "source-code",
-        "license": {
-          "type": "*"
-        },
-        "region": ["EU"],
-        "countries": ["*"]
-      }
-    ]
-  }
+  "disallowed-resources": [
+    {
+      "url": "/",
+      "type": "*",
+      "region": ["*"]
+    }
+  ],
+  "allowed-resources": [
+    {
+      "url": "/",
+      "type": "code",
+      "license": {
+        "type": "Apache-2.0"
+      },
+      "region": ["Europe"],
+      "user-agent": "*"
+    }
+  ]
 }
 ```
 
