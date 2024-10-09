@@ -1,5 +1,5 @@
-# ai-safe
-**ai-safe** protecst your copyright from ai. It is a comprehensive solution for managing access to various types of digital resources (text, video, images, and audio) based on specific criteria such as license type, region, and country. It aims to protect and control the usage of content by AI crawlers, ensuring compliance with licensing terms and regional restrictions.
+# PROTECT - Protection of Rights and Ownership Through Ethical Content Tracking
+**PROTECT** protecst your copyright from ai. It is a comprehensive solution for managing access to various types of digital resources (text, video, images, and audio) based on specific criteria such as license type, region, and country. It aims to protect and control the usage of content by AI crawlers, ensuring compliance with licensing terms and regional restrictions.
 
 ## Features
 
@@ -48,7 +48,7 @@ Below is an example of a configuration JSON file implementing restrictions to al
 
 ## Contributing
 
-We welcome contributions to improve **ai-safe**. Please follow the standard GitHub workflow to submit issues and pull requests.
+We welcome contributions to improve **PROTECT**. Please follow the standard GitHub workflow to submit issues and pull requests.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/your-feature`)
@@ -62,6 +62,6 @@ For any questions or feedback, please reach out to [andrea.zanda@rombo.ai].
 
 ---
 
-Thank you for using **ai-safe**! We hope it helps you manage and protect your digital resources effectively.
+Thank you for using **PROTECT**! We hope it helps you manage and protect your digital resources effectively.
 
 
